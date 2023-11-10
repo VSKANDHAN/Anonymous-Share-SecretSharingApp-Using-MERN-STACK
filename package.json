@@ -11,5 +11,8 @@
     "start-client": "cd frontend && npm run start"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bson": "^6.2.0"
+  }
 }
