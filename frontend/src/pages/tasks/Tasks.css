@@ -1,0 +1,64 @@
+h1{
+    text-align: center;
+    color: crimson;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+}
+.addTask{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.addTask form{
+    display: flex;
+    align-items: center;justify-content: center;
+}
+.taskInput{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.addTask input{
+    border: none;
+    padding: 6px;
+    margin: 10px 20px;
+  
+
+
+}
+.addTask input:focus{
+    outline: none;
+}
+.addTask input:nth-child(2){
+    padding: 20px 10px;
+}
+.addTask input[type='submit']{
+    background-color: crimson;
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+}
+
+.addTask input[type='submit']:hover{
+    background-color: white;
+    color: crimson;
+    border:2px solid crimson;
+}
+@media (max-width:760px) {
+    .addTask form{
+        flex-direction: column;
+    }
+    .taskInput{
+        width: 90%;
+    }
+    .addTask input[type='submit']{
+        padding: 18px;
+        margin-top:20px;
+    }
+   
+    
+}

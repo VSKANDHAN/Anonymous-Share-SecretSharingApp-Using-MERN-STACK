@@ -1,0 +1,43 @@
+
+.taskDiv{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 14px;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    width: 80%;
+    margin: auto;
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.taskContent{
+    width: 80%;
+}
+button{
+    background-color: crimson;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0px 4px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: white;
+    color: crimson;
+    border:2px solid crimson;
+}
+@media (max-width:760px) {
+    .taskDiv{
+        flex-direction: column;
+    padding: 10px 10px;
+
+    }
+    .taskControls{
+        align-self: flex-end;
+    }
+    
+}
