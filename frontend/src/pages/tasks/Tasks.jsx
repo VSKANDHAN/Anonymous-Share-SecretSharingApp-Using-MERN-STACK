@@ -29,7 +29,8 @@ function handleSubmit(e){
 }
   return (
     <>
-    <h1>Daily Ticks</h1>
+    <h1>Anonymous Ticks</h1>
+    <p>Add something secret wihtout sharing your info 🤖</p>
     <div className="addTask">
 <form onSubmit={handleSubmit}>
     <div className="taskInput"> <input type="text" placeholder='Title' name='title' value={data.title} onChange={handleChange}/>
