@@ -4,6 +4,12 @@ h1{
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 32px;
 }
+.headPara{
+    text-align: center;
+    font-weight: 600;
+
+
+}
 .addTask{
     text-align: center;
     margin-bottom: 50px;
