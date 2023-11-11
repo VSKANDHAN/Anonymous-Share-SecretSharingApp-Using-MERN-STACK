@@ -21,12 +21,12 @@ const [editState,setEditState]=useState(false)
     function handleUpdate(e){
         e.preventDefault()
         setEditState(!editState)
-        axios.patch(`http://localhost:5000/api/tasks/${data._id}`,stateData).catch((err)=>console.log(err))
+        axios.patch(`https://dailyticks-api.onrender.com/api/tasks/${data._id}`,stateData).catch((err)=>console.log(err))
 
     }
 
     function handleDelete(){
-        axios.delete(`http://localhost:5000/api/tasks/${data._id}`).catch((err)=>console.log(err))
+        axios.delete(`https://dailyticks-api.onrender.com/api/tasks/${data._id}`).catch((err)=>console.log(err))
 
     }
   

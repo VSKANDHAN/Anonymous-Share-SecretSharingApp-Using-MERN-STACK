@@ -7,7 +7,7 @@ import {} from '@mui/icons-material'
 export default function Tasks() {
 const [APIData,setAPIData]=useState([])
 useEffect(()=>{
-    axios.get('http://localhost:5000/api/tasks').then(
+    axios.get('https://dailyticks-api.onrender.com/api/tasks').then(
         (res)=>{
             setAPIData(res.data)
         }
@@ -21,7 +21,7 @@ function handleChange(e){
 }
 function handleSubmit(e){
     e.preventDefault()
-  axios.post('http://localhost:5000/api/tasks',data).then(()=>setData({title:'',description:''})).catch((err)=>console.log(err))
+  axios.post('https://dailyticks-api.onrender.com/api/tasks',data).then(()=>setData({title:'',description:''})).catch((err)=>console.log(err))
 
 }
   return (
