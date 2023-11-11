@@ -35,7 +35,7 @@ function handleSubmit(e){
 <form onSubmit={handleSubmit}>
     <div className="taskInput"> <input type="text" placeholder='Title' name='title' value={data.title} onChange={handleChange}/>
     <input type="text" name='description' placeholder='Add a Description' value={data.description} onChange={handleChange}/></div>
-<input type="submit" value='Add Tasks'/>
+<input type="submit" value='Share'/>
 </form></div>
     {
         APIData.map((data)=><TaskComponent key={data._id} data={data}/>)
