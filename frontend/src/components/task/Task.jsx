@@ -65,7 +65,7 @@ const TaskEditComponent=({stateData,handleChange,handleUpdate})=>{
             <form onSubmit={handleUpdate}>
                 <h4>Title</h4>
             <input type="text" name='title' value={stateData.title} onChange={handleChange} />
-            <h4>Description</h4>
+            <h4>Secret</h4>
             <input type="text"name='description' value={stateData.description} onChange={handleChange} />
             </form>
 

@@ -15,6 +15,7 @@
 }
 .taskContent{
     width: 80%;
+    margin-bottom: 10px;
 }
 .taskContent input{
     width: 100%;
