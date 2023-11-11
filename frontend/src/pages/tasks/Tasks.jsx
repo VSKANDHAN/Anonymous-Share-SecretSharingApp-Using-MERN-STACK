@@ -10,7 +10,10 @@ useEffect(()=>{
     axios.get('https://dailyticks-api.onrender.com/api/tasks').then(
         (res)=>{
             setAPIData(res.data)
+    console.log(res);
+
         }
+
     ).catch((err)=>console.log(err))
 
 },[APIData])
